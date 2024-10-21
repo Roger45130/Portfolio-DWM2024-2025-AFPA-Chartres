@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>PORTEFOLIO | LANGUAGES INFORMATIQUES</title>
+</head>
+<body>
+    <div class="container__header">
+        <header class="header">
+            <img src="/ASSETS/LOGO/LOGO_HLG.png" alt="Logo de la société VisualCop" class="header__logo">
+            <h1 class="title__h1">Créateur développeur web et mobiles, au service de vos idées digitales.</h1>
+        </header>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="list__item"><a href="index.html" class="nav__link">Accueil <i class="fa-solid fa-house"></i></a></li>
+                <li class="list__item"><a href="travail.html" class="nav__link">Travail <i class="fa-solid fa-briefcase"></i></a></li>
+                <li class="list__item"><a href="langages.html" class="nav__link">Langages Informatiques <i class="fa-solid fa-laptop-code"></i></a></li>
+                <li class="list__item"><a href="contact.html" class="nav__link">Contact <i class="fa-regular fa-comments"></i></a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="container__languages">
+        <br>
+        <div class="langues__content">
+            <h1 class="title__h1__intro">Langages informatiques :</h1>
+    
+            <h2 class="subtitle__h2">HTML : 60%</h2>
+            <div class="progress-bar" data-percentage="60">
+                <div class="progress"></div>
+            </div>
+    
+            <h2 class="subtitle__h2">CSS : 60%</h2>
+            <div class="progress-bar" data-percentage="60">
+                <div class="progress"></div>
+            </div>
+    
+            <h2 class="subtitle__h2">PHP : 20%</h2>
+            <div class="progress-bar" data-percentage="20">
+                <div class="progress"></div>
+            </div>
+    
+            <h2 class="subtitle__h2">JAVASCRIPT : 20%</h2>
+            <div class="progress-bar" data-percentage="20">
+                <div class="progress"></div>
+            </div>
+    
+            <h2 class="subtitle__h2">SASS : 50%</h2>
+            <div class="progress-bar" data-percentage="50">
+                <div class="progress"></div>
+            </div>
+
+            <h2 class="subtitle__h2">MySQL : 5%</h2>
+            <div class="progress-bar" data-percentage="5">
+                <div class="progress"></div>
+            </div>
+
+            <h2 class="subtitle__h2">SYMFONY : 5%</h2>
+            <div class="progress-bar" data-percentage="5">
+                <div class="progress"></div>
+            </div>
+    
+            <h2 class="subtitle__h2">LARAVEL : 5%</h2>
+            <div class="progress-bar" data-percentage="5">
+                <div class="progress"></div>
+            </div>
+
+            <h2 class="subtitle__h2">GITHUB : 10%</h2>
+            <div class="progress-bar" data-percentage="10">
+                <div class="progress"></div>
+            </div>
+        </div>
+        <br>
+    </div>
+    
+
+    <footer class="footer">
+        <div class="footer__informations footer__content">
+            <img src="/ASSETS/LOGO/LOGO_HLG.png" alt="Logo de HLG" class="footer__logo">
+            <div class="informations__content">
+                <p class="informations__address"><i class="fa-regular fa-envelope"></i> <b class="text b-bold">36 rue du Magasin - 45130 EPIEDS-EN-BEAUCE</b></p>
+                <p class="informations__address"><i class="fa-regular fa-envelope"></i> <b class="text b-bold">548 NW 10th Street, Ocala, FL 34471, USA</b></p>
+                <p class="informations__email"><i class="fa-solid fa-at"></i> <b class="text b-bold">contact@hlg-llc.com</b></p>
+                <p class="information__phone"><i class="fa-solid fa-phone"></i> <b class="text b-bold">07.85.01.80.88.</b> <i class="text i-italic">(Depuis la France)</i></p>
+                <p class="information__fax"><i class="fa-solid fa-fax"></i> <b class="text b-bold">(+1) 470-408-6207</b> <i class="text i-italic">(Depuis les USA)</i></p>
+            </div>
+        </div>
+        
+        <div class="footer__reseaux footer__content">
+            <a href="https://x.com/" target="_blank" class="reseaux__link"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="https://www.instagram.com/" target="_blank" class="reseaux__link"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.facebook.com/" target="_blank" class="reseaux__link"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://github.com/Roger45130" target="_blank" class="reseaux__link"><i class="fa-brands fa-github"></i></a>
+        </div>
+        
+        <div class="footer__link footer__content">
+            <a href="index.html" class="link__sitemap">Home <i class="fa-solid fa-house"></i></a>
+            <a href="recrutement.html" class="link__sitemap">Travail <i class="fa-solid fa-briefcase"></i></a>
+            <a href="communaute.html" class="link__sitemap">Langages Informatiques <i class="fa-solid fa-laptop-code"></i></a>
+            <a href="contact.html" class="link__sitemap">Contact <i class="fa-regular fa-comments"></i></a>
+            <a href="metions-legales.html" class="link__sitemap">Mentions legales <i class="fa-solid fa-scale-balanced"></i></a>
+        </div>
+    </footer>
+    
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+    // Sélectionne toutes les progress-bars
+    const progressBars = document.querySelectorAll('.progress-bar');
+
+    // Parcourt chaque progress-bar et anime la largeur
+    progressBars.forEach(bar => {
+        const percentage = bar.getAttribute('data-percentage'); // Récupère le pourcentage à atteindre
+        const progress = bar.querySelector('.progress'); // Sélectionne l'élément .progress
+
+        // Initialiser la largeur à 0% pour l'animation
+        progress.style.width = '0%';
+
+        // Utilisation d'un timeout pour déclencher l'animation avec un petit décalage
+        setTimeout(() => {
+            progress.style.width = percentage + '%'; // Applique la largeur en fonction du pourcentage
+        }, 800); // Le délai avant que l'animation commence
+    });
+});
+
+    </script>
+</body>
+</html>
